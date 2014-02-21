@@ -1,11 +1,10 @@
-
 class Slime {
   ArrayList<SlimyPoint> points;
   PVector pos;          //position
   PVector vel;          //velocity
   PVector acc;          //acceleration
-  float packedDistance; //minimum distance between adjecent points
-  float looseDistance;  //maximum distance between adjecent points
+  float packedDistance; //minimum distance between adjacent points
+  float looseDistance;  //maximum distance between adjacent points
   float viscosity;      //willingness to tie together: the bigger the value is, the bouncy it is
   float friction;       //efficiency of sliding
   boolean set;          //there're enough number of points and all set
